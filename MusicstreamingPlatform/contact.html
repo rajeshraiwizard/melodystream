@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - MusicStream</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="images/Melody Stream.png" alt="MusicStream Logo" class="logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="media.html">Media</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact">
+            <h1>Contact Us</h1>
+            <p>Have any questions? Feel free to reach out to us.</p>
+
+            <form action="#" method="post" onsubmit="return validateForm()">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+
+            <div id="formFeedback"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Contact us at <a href="mailto:info@melodystream.com">info@melodystream.com</a></p>
+        <p>Follow us on <a href="https://www.facebook.com/rajesh.rai.94/">Facebook</a>,<a href="https://www.instagram.com/_rajeshrai/?hl=en">Instagram</a></p>
+        <p> &copy;Copyright 2024 Melodystream. All rights reserved.</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
